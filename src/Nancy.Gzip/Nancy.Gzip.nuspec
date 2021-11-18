@@ -14,10 +14,11 @@
     <copyright>Copyright 2017 Derek Comartin</copyright>
     <tags>gzip nancy nancyfx compression</tags>
     <dependencies>
-        <dependency id="Nancy" version="2.0.0-clinteastwood"/>
+        <dependency id="Nancy" version="2.0.0"/>
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\netstandard1.6\Nancy.Gzip.dll" target="lib\netstandard1.6" />
+    <file src="bin\Release\netstandard2.0\Nancy.Gzip.dll" target="lib\netstandard2.0" />
+    <file src="bin\Release\net452\Nancy.Gzip.dll" target="lib\net452" />
   </files>
 </package>
